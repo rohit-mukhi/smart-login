@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #415E72;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goldman-bold {
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.container {
+    /* border: 2px solid lime; */
+    max-width: 350px;
+    background-color: rgba(23, 49, 62, 0.4);
+    color: aliceblue;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+
+
+.container .row, .container .row .col {
+    min-width: 100%;
+    /* border: 2px solid lime; */
+}
+
+#poster-image {
+    background-image: url(astronaut.jpg);
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#form {
+    padding-top: 2rem;
+}
+
+.ball {
+    display: block;
+    position: absolute;
+    top: 100%;
+    z-index: -1;
+    border-radius: 50%;
+    animation: move ease-in infinite forwards;
+}
+
+.one {
+    left: 2%;
+}
+
+ .two {
+    left: 10%;
+}
+
+.three {
+    left: 20%;
+}
+
+.four {
+    left: 30%;
+}
+
+.five {
+    left: 37%;
+}
+
+.six {
+    left: 48%;
+}
+
+.seven {
+    left: 69%;
+}
+
+.eight {
+    left: 77%;
+}
+
+.nine {
+    left: 85%;
+}
+
+.ten {
+    left: 96%;
+}
+
+.child-one {
+    background-color: #C5B0CD;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.child-two {
+    background-color: #17313E;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+@keyframes move {
+    from {
+        top: 100%;
+    } to {
+        top: 0%;
+    }
+}
+
+.animation-fast {
+    animation-duration: 7s;
+}
+
+.animation-medium {
+    animation-duration: 12s;
+}
+
+.animation-slow {
+    animation-duration: 17s;
+}

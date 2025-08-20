@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="wheel-3.webp">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container d-flex flex-direction-row" data-aos="fade-up">
+        <div class="row">
+            <div class="col">
+                <div class="poster" id="poster-image">
+                    <h2 class="goldman-bold" style="position: relative; top: 50px; left: 10px;">Join The Space Race!
+                    </h2>
+                </div>
+            </div>
+            <div class="col" id="form">
+                <div id="buttons" style="width: 100%;"
+                    class="d-flex flex-direction-row gap-4 justify-content-center align-items-center">
+                    <button id="sign-in-btn" class="bg-success text-light"
+                        style="padding: 0.2rem; border-radius: 10px; width: 100px;" onclick="change()">Sign in</button>
+                    <button id="sign-up-btn" class="bg-secondary text-light"
+                        style="padding: 0.2rem; border-radius: 10px; width: 100px;" onclick="reverse()">Sign up</button>
+                </div>
+                <br>
+                <form data-aos="fade-up">
+                    <!--   <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">I agree to contribute</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign In</button> -->
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign
+                        In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="ball child-one one animation-fast"></div>
+    <div class="ball child-two two animation-slow"></div>
+    <div class="ball child-one three animation-medium"></div>
+    <div class="ball child-two four animation-fast"></div>
+    <div class="ball child-one five animation-slow"></div>
+    <div class="ball child-two six animation-medium"></div>
+    <div class="ball child-one seven animation-slow"></div>
+    <div class="ball child-two eight animation-fast"></div>
+    <div class="ball child-one nine animation-slow"></div>
+    <div class="ball child-two ten animation-medium"></div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="main.js"></script>
+
+</html>
